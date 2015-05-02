@@ -1,6 +1,6 @@
 ## Visual Prime Decomposition##
 
-Inspired by blog posts [here](http://mathlesstraveled.com/2012/10/05/factorization-diagrams/) and [there](http://chrisrzhou.datanaut.io/blog/tutorials/2015/02/22/dances-with-factors-tutorial/), I wanted to write such animation entirely in a [Jupyter] notebook.
+Inspired by blog posts [here](http://mathlesstraveled.com/2012/10/05/factorization-diagrams/) and [there](http://chrisrzhou.datanaut.io/blog/tutorials/2015/02/22/dances-with-factors-tutorial/), I wanted to write such animation entirely in a [Jupyter](http://ipython.org/) notebook.
 
 In the process I made slight adjustments:  
 + I changed the disposition of the circles so that they fill as much space as possible, using a bit of trigonometry, so that (1) circles remain visible even for large numbers, (2) there is never overlapping.

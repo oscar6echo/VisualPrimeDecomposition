@@ -13,5 +13,5 @@ The function `write_js_to_output` is necessary to store the js code in an output
 + the notebook to run the js stored in the outpout cells upon load without the user having to manually run the cells
 + nbconvert to create a standalone html page containing the notebook output ready for posting. [Here](http://oscar6echo.github.io/VisualPrimeDecomposition/VisualPrimeDecomposition.html) is the result.
 
-Note that for security reasons explained in the [IPython notebook documentation](https://ipython.org/ipython-doc/dev/notebook/security.html), the javascript in the notebook will run upon load _only if_ you have run it manually before with the same profile. On the other hand nbconvert will always include the javascript in the .html page created.
+Note that for security reasons explained in the [IPython notebook documentation](https://ipython.org/ipython-doc/dev/notebook/security.html), the javascript in the notebook will run upon load **only if** you have run it manually before with the same profile. On the other hand nbconvert will always include the javascript in the .html page created.
 

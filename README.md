@@ -8,8 +8,8 @@ In the process I made slight adjustments:
 + The input field accepts expression like '2*5*7*13' so that you can get the pattern without a side calculator.
 
 
-The notebook makes heavy use of the `%%javascript` magic and the impressive [d3.js](d3js.org) library.
-The function `write_js_to_output` is necessary to store the js code in an output cell, which enables
+The notebook makes heavy use of the `%%javascript` magic and the impressive [d3.js](d3js.org) library.  
+The function `write_js_to_output` is necessary to store the js code in an output cell, which enables:
 + the notebook to run the js stored in the outpout cells upon load without the user having to manually run the cells
 + nbconvert to create a standalone html page containing the notebook output ready for posting. [Here](http://oscar6echo.github.io/VisualPrimeDecomposition/VisualPrimeDecomposition.html) is the result.
 
